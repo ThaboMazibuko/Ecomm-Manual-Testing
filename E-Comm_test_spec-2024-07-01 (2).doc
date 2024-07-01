@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec E-Commerce - Checkout</title>
+<link type="text/css" rel="stylesheet" href="https://testlink.linkfields.io/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="https://testlink.linkfields.io/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: E-Commerce<br/>Test Suite: E-Commerce - Checkout</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 01/07/2024</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.Checkout</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc2667">E-Comm-131: Checkout page-Review &amp; Payments-Continue Shopping button</a></p><p style="padding-left: 45px;"><a href="#toc_tc2655">E-Comm-130: Checkout page-Review &amp; Payments-Place Order button</a></p><p style="padding-left: 45px;"><a href="#toc_tc2638">E-Comm-128: Checkout page-Review &amp; Payments-Ship To-edit link</a></p><p style="padding-left: 45px;"><a href="#toc_tc2634">E-Comm-127: Checkout page-Review &amp; Payments-Shipping Method-edit link</a></p><p style="padding-left: 45px;"><a href="#toc_tc2610">E-Comm-123: Checkout page-Review &amp; Payments-Ship To</a></p><p style="padding-left: 45px;"><a href="#toc_tc2503">E-Comm-119: Checkout page-Review &amp; Payments-Order Summary</a></p><p style="padding-left: 45px;"><a href="#toc_tc2515">E-Comm-120: Cart Icon pop up window_ &quot;item name&quot; link</a></p><p style="padding-left: 45px;"><a href="#toc_tc2540">E-Comm-121: Cart Icon pop up window_ &quot;See Details&quot; dropdown</a></p><p style="padding-left: 45px;"><a href="#toc_tc2583">E-Comm-122: Cart Icon pop up window_ &quot;Edit item&quot; icon</a></p><p style="padding-left: 45px;"><a href="#toc_tc2613">E-Comm-124: Cart Icon pop up window_ &quot;Remove item&quot; icon</a></p><p style="padding-left: 45px;"><a href="#toc_tc2632">E-Comm-126: Cart Icon pop up window_ &quot;Proceed to Checkout &quot; button</a></p><p style="padding-left: 45px;"><a href="#toc_tc2653">E-Comm-129: Shipping page_&quot;New Address&quot; button</a></p><p style="padding-left: 45px;"><a href="#toc_tc2674">E-Comm-132: Shipping page_Order summery dropdown</a></p><p style="padding-left: 45px;"><a href="#toc_tc2689">E-Comm-136: Shipping page_shipping methods_&quot;Radio&quot; button</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>This is Project for&nbsp;E-Commerce Website</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : Checkout</h1>
+<div><p>This suite is for all the checkout test cases</p>
+</div><a name="toc_tc2667"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-131: Checkout page-Review &amp; Payments-Continue Shopping button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Prince</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Verify&nbsp; Continue Shopping button&nbsp;works correctly.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should be logged in, add products to cart and navigate to the&nbsp;Checkout page-Review &amp; Payments.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click &#39;Continue Shopping&#39; button</p>
+</td><td><p>The landing homepage&nbsp;should open.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2655"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-130: Checkout page-Review &amp; Payments-Place Order button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Prince</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Verify Place Order button&nbsp;works correctly.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should be logged in, add products to cart and navigate to the&nbsp;Checkout page-Review &amp; Payments.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click &#39;Place Order&#39; button</p>
+</td><td><p>The Checkout success page should open with a Title saying &quot;Thank you for your purchase!&quot;. It should also&nbsp;display&nbsp;the order number and a &#39;Continue Shopping&#39; button.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2638"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-128: Checkout page-Review &amp; Payments-Ship To-edit link&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Prince</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Verify if user can edit Ship To&nbsp;details.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should be logged in, add products to cart and navigate to the&nbsp;Checkout page-Review &amp; Payments.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on the pencil icon link on the right side of the Ship To&nbsp;title.</p>
+</td><td><p>Shipping Address page should open, where the user can add a new address.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2634"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-127: Checkout page-Review &amp; Payments-Shipping Method-edit link&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Prince</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Verify if user can edit Shipping Method details.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should be logged in, add products to cart and navigate to the&nbsp;Checkout page-Review &amp; Payments.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on the pencil icon link on the right side of the&nbsp;&quot;Shipping Method&quot;&nbsp;title.</p>
+</td><td><p>Shipping Address page should open, where the user can add a new address.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2610"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-123: Checkout page-Review &amp; Payments-Ship To&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Prince</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Verify &quot;Ship To&quot; details.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should be signed in,</p>
+
+<p>add products to cart</p>
+
+<p>and navigate to the&nbsp;Checkout page-Review &amp; Payments.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click &quot;Ship Here&quot; button to select an address</p>
+</td><td><p>Address to should be selected and highlighted</p>
+</td></tr><tr><td width="5">2</td><td><p>scroll down and click the &quot;Next&quot; button</p>
+</td><td><p>Review &amp; Payments page opens</p>
+</td></tr><tr><td width="5">3</td><td><p>scroll down and locate the &quot;Ship To:&quot; section</p>
+</td><td><p>The Ship To address&nbsp;should display on the &quot;Ship To:&quot; section</p>
+</td></tr><tr><td width="5">4</td><td><p>verify if the selcted address shipping address page displays correctly as the ship to page address</p>
+</td><td><p>Both addresses should be the same</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2503"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-119: Checkout page-Review &amp; Payments-Order Summary&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Prince</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Verify payment method details.</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should be logged in, add products to cart and navigate to the&nbsp;Checkout page-Review &amp; Payments.</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Verify that the Order Summary displays the correct Cart Subtotal, Shipping, Order Total and Items in Cart.</p>
+</td><td><p>Cart Subtotal, Shipping, Order Total and Items in Cart should display the correct details.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2515"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-120: Cart Icon pop up window_ &quot;item name&quot; link&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC to verify the item name link&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>-item already added to cart</p>
+
+<p>-Already clicked on cart icon and pop up open</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on an item name link</p>
+</td><td><p>page should show:</p>
+
+<p>-Item price</p>
+
+<p>-item available sizes</p>
+
+<p>-item available colors</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Low</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2540"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-121: Cart Icon pop up window_ &quot;See Details&quot; dropdown&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC to verify the &quot;See Details&quot; dropdown list</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>-Item already in cart</p>
+
+<p>-Cart icon already clicked and pop up window displayed</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on &quot;See Details&quot; dropdown</p>
+</td><td><p>list should display:&nbsp;</p>
+
+<p>-Size: (and selected size)</p>
+
+<p>-Color: (and selected color)</p>
+
+<p>-price in $</p>
+</td></tr><tr><td width="5">2</td><td><p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2540&amp;tcversion_id=2541&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2540%26show_mode%3Dshow&amp;step_id=2557">Click on &quot;See Details&quot; dropdown</a></p>
+</td><td><p>list should close&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Low</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2583"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-122: Cart Icon pop up window_ &quot;Edit item&quot; icon&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC to verify the &quot;Edit item&quot; icon</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>-item added to cart</p>
+
+<p>-cart icon already clicked and pop up window displayed</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on the &quot;Edit item&quot; icon</p>
+</td><td><p>&quot;Edit item&quot; page should open</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Low</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2613"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-124: Cart Icon pop up window_ &quot;Remove item&quot; icon&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC to verify the &quot;Remove item&quot; icon</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>-item already added to cart</p>
+
+<p>-Cart icon already clicked and icon pop up window displayed</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;Remove item&quot; icon</p>
+</td><td><p>pop up window with &quot;Are you sure you would like to remove this item from the shopping cart?&quot; should be displayed.</p>
+</td></tr><tr><td width="5">2</td><td><p>Click &quot;OK&quot;</p>
+</td><td><p>Item should be removed from cart</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2632"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-126: Cart Icon pop up window_ &quot;Proceed to Checkout &quot; button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC to verify the &quot;Proceed to Checkout&quot; button</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>-item already added to cart</p>
+
+<p>-cart icon already clicked and cart pop up window opened</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click &quot;Proceed to Checkout&quot; button</p>
+</td><td><p>&quot;Shipping Address&quot; page should open displaying:</p>
+
+<p>-Previous shipping information&nbsp;</p>
+
+<p>-&quot;New Address&quot; button</p>
+
+<p>-&quot;Ship Here&quot; button</p>
+
+<p>-&quot;Shipping Methods&quot; section:</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&quot;Flat Rate&quot;-($5.00)</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&quot;Best Way&quot;-($15.00)</p>
+
+<p>-Order Summery (dropdown)</p>
+
+<p>-&quot;Next&quot; button</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2653"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-129: Shipping page_&quot;New Address&quot; button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC to verify the &quot;+ New Address&quot; button</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>-user should be signed in</p>
+
+<p>-already clicked &quot;Proceed to Checkout&quot; button after clicking cart icon</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click &quot;+ New Address&quot; button</p>
+</td><td><p>&quot;Shipping Address&quot; window should pop up displaying labels and input field for:</p>
+
+<p>-&quot;First Name&quot; with an&nbsp;asterisk</p>
+
+<p>-&quot;Last Name&quot; with an&nbsp;asterisk</p>
+
+<p>-&quot;Company&quot;</p>
+
+<p>-&quot;Street Address&quot; with an&nbsp;asterisk</p>
+
+<p>-&quot;City&quot; with an&nbsp;asterisk</p>
+
+<p>-&quot;State/Province&quot;(dropdown),with an&nbsp;asterisk</p>
+
+<p>-Zip/Postal Code&nbsp;with an&nbsp;asterisk</p>
+
+<p>-Country (dropdown),&nbsp;with an&nbsp;asterisk</p>
+
+<p>-Phone Number,&nbsp;with an&nbsp;asterisk</p>
+
+<p>-&quot;Save in address book&quot; tickbox</p>
+
+<p>-&quot;Cancel&quot; button</p>
+
+<p>-&quot;Ship Here&quot; button</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Low</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2674"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-132: Shipping page_Order summery dropdown&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC to verify the &quot;Order Summery&quot; dropdown&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>At least one item is in cart then clicked &quot;Proceed to Checkout&quot; button and on &quot;Shipping Address page&quot;&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on item dropdown list on an item</p>
+</td><td><p>dropdown should show:</p>
+
+<p>-&quot;Qty:&quot; (Items quantity visible)</p>
+
+<p>-an item price of cart matches the same item&nbsp;price of shipping address page</p>
+
+<p>-View Detailes dropdown with: &quot;Size&quot;, and &quot;Color&quot; for that item&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Low</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2689"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-136: Shipping page_shipping methods_&quot;Radio&quot; button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>TC to verify the &quot;Shipping Methods&quot; radio buttons</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>user already clicked &quot;Proceed to Checkout&quot;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Select one &quot;shipping method&quot; radio button</p>
+</td><td><p>one option should be selected</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
