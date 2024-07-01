@@ -1,0 +1,434 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec E-Commerce - Authentication</title>
+<link type="text/css" rel="stylesheet" href="https://testlink.linkfields.io/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="https://testlink.linkfields.io/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: E-Commerce<br/>Test Suite: E-Commerce - Authentication</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 01/07/2024</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.Authentication</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc307">E-Comm-17: Verify URL Link opens</a></p><p style="padding-left: 45px;"><a href="#toc_tc329">E-Comm-18: Verify Support this Project link</a></p><p style="padding-left: 45px;"><a href="#toc_tc351">E-Comm-19: To verify &quot;Create an account&quot; link</a></p><p style="padding-left: 45px;"><a href="#toc_tc1448">E-Comm-64: &quot;Create an Account&quot; link_ &quot;Create New Customer Account&quot; with valid data</a></p><p style="padding-left: 45px;"><a href="#toc_tc2121">E-Comm-83: &quot;Create an Account&quot; link_ &quot;Create New Customer Account&quot; page with invalid data&quot;</a></p><p style="padding-left: 45px;"><a href="#toc_tc2269">E-Comm-95: &quot;Create An Account&quot;_ &quot;Create New Customer Account&quot; with empty spaces</a></p><p style="padding-left: 45px;"><a href="#toc_tc2284">E-Comm-96:  &quot;Sign In&quot; Link</a></p><p style="padding-left: 45px;"><a href="#toc_tc2340">E-Comm-105: &quot;Sign In Link&quot;_&quot;Customer Login&quot; with valid data</a></p><p style="padding-left: 45px;"><a href="#toc_tc2381">E-Comm-108: &quot;Sign In Link&quot;_ &quot;Customer Login&quot; with invalid data</a></p><p style="padding-left: 45px;"><a href="#toc_tc2395">E-Comm-110: &quot;Sign In&quot; link_&quot;Customer Login&quot; page_ &quot;Sign In&quot; button with empty space&quot;&quot;</a></p><p style="padding-left: 45px;"><a href="#toc_tc2403">E-Comm-111: &quot;Sign In&quot; Link &quot;Customer Login&quot; page_&quot;Create An Account&quot; Button</a></p><p style="padding-left: 45px;"><a href="#toc_tc2685">E-Comm-135: &quot;Search Bar&quot; with invalid data</a></p><p style="padding-left: 45px;"><a href="#toc_tc2696">E-Comm-138: &quot;Search Bar&quot; with empty data</a></p><p style="padding-left: 45px;"><a href="#toc_tc2702">E-Comm-139: &quot;Shopping cart &quot;icon</a></p><p style="padding-left: 45px;"><a href="#toc_tc2707">E-Comm-140: &quot;Search Bar&quot; with valid data</a></p><p style="padding-left: 45px;"><a href="#toc_tc2713">E-Comm-142: &quot;Shopping cart&quot; icon with no items added</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>This is Project for&nbsp;E-Commerce Website</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : Authentication</h1>
+<div><p>This suite is for the sign in,registering, and support this project links case designs</p>
+</div><a name="toc_tc307"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-17: Verify URL Link opens&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Test case to verify URL link functions</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Click on URL link_https://magento.softwaretestingboard.com/what-is-new.html</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Step 1_Click on url link</p>
+</td><td><p>1. Landing&nbsp;page opens</p>
+
+<p>2. The following is displayed_Header_LUMA_Menu bar_Search icon and cart icon are displayed</p>
+
+<p>3. The following text links is displayed above the header in a grey shade_Support This Project_Sign In and Create An Account</p>
+
+<p>4. The following Tabs are displayed below the header in a light grey shade_Whats new_Women_Men_Gear_Training_Sale</p>
+
+<p>5. Home Textlink is displayed</p>
+
+<p>6. New in Womens with text links_Hoodies and sweatshirts_Jackets_Tees_Bras and tanks_Pants_Shorts.</p>
+
+<p>7. New in mens with text links_Hoodies sweatshirts_Jackets_Tees_Tanks_Pants_Shorts.</p>
+
+<p>8. Luma&#39;s latest_Just in time for the new season&nbsp;with images, descriptions, prices</p>
+
+<p>9. Picture New Luma Yoga Collection_description&nbsp;&nbsp;and shop new yoga&nbsp;button is displayed.</p>
+
+<p>10. Picture Whatever day brings with_description and performance fabrics text link</p>
+
+<p>11. Picture A sense of renewal_description and text link shop Eco friendly appears.</p>
+
+<p>12. On footer the following text links are displayed_Notes_Practice API Testing using Magento 2_Write for us_Subscribe_Search Terms_Privacy and Cookie Policy_Advanced Search_Orders and Returns&nbsp;&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc329"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-18: Verify Support this Project link&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Prince</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Test case to verify Support this Project Link opens</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Click&nbsp;on URL link and Landing page opens</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on url link&nbsp;https://magento.softwaretestingboard.com/what-is-new.html</p>
+</td><td><p>Landing page opens</p>
+</td></tr><tr><td width="5">2</td><td><p>Click on Support this project link</p>
+</td><td><p>1. Software Testing Board page opens</p>
+
+<p>2. On the header_Ellipsis and Login link are visible</p>
+
+<p>3. At the bottom of the page on the footer the following links are visable_English_Privacy_Terms_Report_Start your Buy me a coffee Page link.</p>
+
+<p>4. About Software testing Board information is displayed and Buy Software Testing Board a coffee.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc351"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-19: To verify &quot;Create an account&quot; link&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>Test Case to verify &quot;Create an account&quot; link</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Click on URL https://magento.softwaretestingboard.com/what-is-new.html_landing page is open</p>
+
+<p>Navigate to &quot;Create an account&quot; link</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on &quot;Create an Account&quot; link</p>
+</td><td><p>&quot;Create New Customer Account&quot; page is displayed with the following details, &quot;Personal Information&quot;, &quot;Sign In Information&quot;, &quot;Create an Account&quot; Button&nbsp;in blue is displayed</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1448"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-64: &quot;Create an Account&quot; link_ &quot;Create New Customer Account&quot; with valid data&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify if create an&nbsp;account button should accept&nbsp;valid data</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User clicked on URL link</p>
+
+<p>User clicked&nbsp;on &quot;Create An Account&quot; link</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on &quot;First Name&quot;&nbsp;</p>
+
+<p>Enter valid first name(not exceeding 20 characters, alphabeths only,&nbsp;no numeric values and special characters or symbols)</p>
+</td><td><p>Curser will appear in &quot;first name&quot; input box</p>
+
+<p>Name appears in alphabeths</p>
+</td></tr><tr><td width="5">2</td><td><p>1.Click on &quot;Last Name&quot;</p>
+
+<p>2. Enter Last Name(Not exceeding 20 characters, no numeric values, special characters or symbols allowed)</p>
+</td><td><p>Curser appears in &quot;last name&quot; input box</p>
+
+<p>Last Name is displayed&nbsp;</p>
+</td></tr><tr><td width="5">3</td><td><p>1. Click on &quot;email&quot;&nbsp;</p>
+
+<p>2. Enter valid email address</p>
+</td><td><p>Curser appears in &quot;email&quot; input box</p>
+
+<p>Email address is displayed&nbsp;in &quot;Email&quot; input box</p>
+</td></tr><tr><td width="5">4</td><td><p>1.Click on &quot;Password&quot;&nbsp;input box</p>
+
+<p>2. Enter valid password(not exceeding 8 characters, can include numeric values, special characters, upper case, lower case)</p>
+</td><td><p>Curser will appear in &quot;password&quot; input box</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">5</td><td><p>1. Click on &quot;confirm password&quot;</p>
+
+<p>2. Enter &quot;valid password&quot;</p>
+</td><td><p>Curser appears in &quot;confirm password&quot; input box</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">6</td><td><p>click on &quot;Create an Account&quot; button in blue at the bottom of page</p>
+</td><td><p>1. &quot;My Account&nbsp;Page&quot; opens below header displaying a message highlighted in green &quot;Thank you for registering with Main Website Store&quot;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2121"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-83: &quot;Create an Account&quot; link_ &quot;Create New Customer Account&quot; page with invalid data&quot;&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify&nbsp;&quot;Create an Account&quot; button with&nbsp;invalid data</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User clicked on url link</p>
+
+<p>User clicked on &quot;Create an account&quot; link</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1. Click on &quot;First Name&quot;</p>
+
+<p>2. Enter invalid data</p>
+</td><td><p>Curser appears in &quot;first name&quot; input box</p>
+
+<p>&nbsp;</p>
+
+<p>Characters are displayed with a red underlining</p>
+</td></tr><tr><td width="5">2</td><td><p>1. Click on &quot;last name&quot;</p>
+
+<p>2. Enter invalid data</p>
+</td><td><p>Curser appears in &quot;last name&quot; input box</p>
+
+<p>&nbsp;</p>
+
+<p>Characters are displayed with a red underlining</p>
+</td></tr><tr><td width="5">3</td><td><p>1. Click on &quot;email&quot;</p>
+
+<p>2. Enter invalid data</p>
+</td><td><p>Curser appears in &quot;email&quot; input box</p>
+
+<p>&nbsp;</p>
+
+<p>Characters are displayed</p>
+</td></tr><tr><td width="5">4</td><td><p>1. Click on &quot;Password&quot;</p>
+
+<p>2. Enter invalid password</p>
+</td><td><p>Curser appears in &quot;password&quot; input box</p>
+
+<p>&nbsp;</p>
+
+<p>Black round dots are displayed_Eye icon is visable to view password_below password input box password strengh is displayed. Below password &quot;strenght&nbsp;Minimum of different classes of characters in password is 3,&nbsp;Classes of characters: Lower Case, Upper Case, Digits, Special Characters&quot; is displayed in red writing</p>
+</td></tr><tr><td width="5">5</td><td><p>1. Click on &quot;Confirm Password&quot;</p>
+
+<p>&nbsp;</p>
+
+<p>2. Enter password</p>
+</td><td><p>Curser appears in &quot;Confirm Password&quot;</p>
+
+<p>&nbsp;</p>
+
+<p>Black round dots are displayed_Eye icon is visable to view password</p>
+</td></tr><tr><td width="5">6</td><td><p>1. Click on &quot;Create an&nbsp;Account&quot;</p>
+</td><td><p>The following information is displayed:</p>
+
+<p>1. Below &quot;Email&quot; input box message is displayed&nbsp; &quot;Please enter a valid email address (Ex: johndoe@domain.com).&quot;</p>
+
+<p>2. Below &quot;Password&quot;&nbsp;input box message is displayed&nbsp;&quot;Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.&quot;</p>
+
+<p>3.Below &quot;Confirm Password&quot; input box message is displayed&nbsp;&quot;Please enter the same value again.&quot;</p>
+
+<p>At bottom of page before &quot;Create an Account&quot; button, Astrisk is visible stating &quot;Required Fields&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2269"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-95: &quot;Create An Account&quot;_ &quot;Create New Customer Account&quot; with empty spaces&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify &quot;Create an Account&quot; button with&nbsp;empty spaces&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User clicked on url link</p>
+
+<p>User clicked on&quot;Create an account&quot; link</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1. Do not enter any information in &quot;create new customer&quot; page fields</p>
+
+<p>2. Click on &quot;Create an Account&quot; button</p>
+</td><td><p>All input boxes should be blank</p>
+
+<p>&quot;This is a field required&quot; should pop&nbsp;up under all input boxes_&quot;First name&quot;, &quot;Last name, &quot;Email&quot;, &quot;Password&quot;, &quot;Confirm password&quot;&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2284"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-96:  &quot;Sign In&quot; Link&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify if &#39;&quot;Sign In&quot; link&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User clicked on URL link</p>
+
+<p>Click on &quot;Sign In&quot; link on landing page</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1. Click on &quot;Sign In&quot; link</p>
+</td><td><p>&quot;Customer Login&quot; Page should open&nbsp;displaying the following details, &quot;Email&quot;, &quot;Password&quot;, &quot;Sign in&quot; button , &quot;forgot your password&quot; link,&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2340"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-105: &quot;Sign In Link&quot;_&quot;Customer Login&quot; with valid data&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify &quot;Sign In&quot; Button&nbsp;in &quot;Customer Login&quot; page&nbsp;with valid data</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User clicked on url link_landing page is displayed</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>&nbsp;Click on &quot;Sign In&quot; link</p>
+
+<p>&nbsp;</p>
+</td><td><p>&quot;Customer Login&quot; page should&nbsp;open displaying Registered customers, &quot;Email&quot;, &quot;Password&quot;, &quot;Sign In&quot; button in blue, &quot;forgot your password&quot; link, &quot;New customers&quot;, &quot;Create An Account&quot; tab in blue</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2352">Click on &quot;email</a>&quot;</p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2352">&nbsp;</a></p>
+</td><td><p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2352">Curser should appear&nbsp;in &quot;email&quot; input box</a></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2352">&nbsp;</a></p>
+</td></tr><tr><td width="5">3</td><td><p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2352">Enter valid &quot;email</a>&quot;</p>
+
+<p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2352">&nbsp;</a></p>
+</td><td><p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2352">Email address should&nbsp;displayed characters</a></p>
+
+<p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2352">&nbsp;</a></p>
+</td></tr><tr><td width="5">4</td><td><p>Click on &quot;Password&quot;</p>
+</td><td><p>Curser should appear&nbsp;in &quot;password&quot; input box</p>
+</td></tr><tr><td width="5">5</td><td><p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2369">Enter valid &quot;password</a>&quot;</p>
+</td><td><p>&nbsp;</p>
+
+<p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2369">Round dots should be&nbsp;displayed_eye icon is displayed</a></p>
+</td></tr><tr><td width="5">6</td><td><p>&nbsp;</p>
+
+<p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2340&amp;tcversion_id=2341&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2340%26show_mode%3Dshow&amp;step_id=2369">&nbsp;Click on &quot;Sign In&quot; button&nbsp;in blue</a></p>
+</td><td><p>&quot;My Account&#39;&quot; page should&nbsp;displayed&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2381"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-108: &quot;Sign In Link&quot;_ &quot;Customer Login&quot; with invalid data&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify the &quot;Sign In&quot; button&nbsp;in &quot;Customer Login&quot; page</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User clicked on url link</p>
+
+<p>User clicked on &quot;Sign In&quot; link</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1. Click on &quot;Email&quot;</p>
+
+<p>2. Enter invalid &quot;Email&quot;</p>
+</td><td><p>Curser should appear&nbsp;in &quot;Email&quot; input box</p>
+
+<p>Characters should be&nbsp;displayed and underined in curvy red line</p>
+</td></tr><tr><td width="5">2</td><td><p>1. Click on &quot;Password&quot;</p>
+
+<p>2. Enter invalid &quot;Password&quot;</p>
+</td><td><p>Curser should appear&nbsp;in &quot;Password&quot; input box</p>
+
+<p>Round dots should appear with eye icon</p>
+</td></tr><tr><td width="5">3</td><td><p>1. Click on &quot;Sign In&quot; button</p>
+</td><td><p>The following message should be&nbsp;displayed below &quot;Email&quot; input box &quot;Please enter a valid email address (Ex: johndoe@domain.com).&quot; in red and input box is in red</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2395"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-110: &quot;Sign In&quot; link_&quot;Customer Login&quot; page_ &quot;Sign In&quot; button with empty space&quot;&quot;&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify the &quot;Sign In&quot;button&nbsp;in &quot;Customer Login&quot; page</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User click on URL Link_landing page is displayed</p>
+
+<p>User click on &quot;Sign In&quot;&nbsp;Link_&quot;Customer Login&quot; page is opened</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1. Do not enter&nbsp;any input in the &quot;Email&quot; and &quot;Password&quot; fields, leave blank and&nbsp;</p>
+
+<p>Click on &quot;Sign In&quot; button</p>
+</td><td><p>&nbsp;</p>
+
+<p>The following message appears below &quot;Email&quot; and &quot;Password&quot; input boxes &quot;This is a required field.&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2403"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-111: &quot;Sign In&quot; Link &quot;Customer Login&quot; page_&quot;Create An Account&quot; Button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify Create an account tab in customer login page</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User clicks on url link</p>
+
+<p>User clicks on &quot;Sign In&quot; text link_&quot;Customer Login&quot; page is displayed</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1. Click on &quot;Create An Account&quot; button</p>
+</td><td><p>&quot;Create New Customer Account&quot; page should be&nbsp;displayed</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2685"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-135: &quot;Search Bar&quot; with invalid data&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify &quot;Search Bar&quot; with invalid data</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User clicked on url link_landing page displayed</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>1. Click on &quot;Search Bar&quot;</p>
+</td><td><p>Curser should appear&nbsp;in input box in search bar_Placeholder message is displayed &quot;Search entire store here&quot;</p>
+</td></tr><tr><td width="5">2</td><td><p>2. Enter invalid data</p>
+</td><td><p>Invalid data characters should be displayed&nbsp;</p>
+</td></tr><tr><td width="5">3</td><td><p>Click on &quot;Search&quot; icon</p>
+</td><td><p>Home screen should be&nbsp;displayed with the following details_&quot;Your search returned no results&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2696"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-138: &quot;Search Bar&quot; with empty data&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify &quot;Search Bar&quot; with empty data</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Click on url link_landing page displayed</p>
+
+<p>Navigate to &quot;Search Bar&quot;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on &quot;Search Bar&quot;</p>
+</td><td><p>Curser should&nbsp;appears in input box in search bar</p>
+</td></tr><tr><td width="5">2</td><td><p>Do not enter data and click on &quot;search&nbsp;icon&quot;</p>
+</td><td><p>it should not allow to click</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2702"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-139: &quot;Shopping cart &quot;icon&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify if &quot;Shopping Cart&quot; icon functions with at least one item&nbsp;added to cart</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Click on url link</p>
+
+<p>At least one item&nbsp;should&nbsp;be added to cart</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on &quot;Shopping cart&quot; icon</p>
+</td><td><p>Pop up should be displayed&nbsp;with the following details, &quot;number of items in cart&quot;, &quot;Cart subtotal&quot; with amount, &quot;Proceed to checkout&quot; button in blue, &quot;picture&quot; of item is displayed with details, &quot;quantity&quot;, &quot;price&quot;, &quot;pencil&quot; icon to edith and &quot;bin&quot; icon to delete, &quot;View and edit cart&quot; text link in blue writing_an &quot;X&quot; at top of drop down box to close box</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2707"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-140: &quot;Search Bar&quot; with valid data&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify &quot;Search Bar&quot; accepts valid data</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Click on URL link</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click in &quot;Search Bar&quot;</p>
+</td><td><p>Curser should appear in &quot;Search Bar&quot; input box</p>
+</td></tr><tr><td width="5">2</td><td><p>Enter valid data</p>
+</td><td><p>valid characters should be visible_drop down box should appear with list of items including amount of items avaiable</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2713"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-142: &quot;Shopping cart&quot; icon with no items added&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Ronell</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify &quot;Shopping Cart&quot; icon with&nbsp;no items&nbsp;added</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>Click on url link</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Click on &quot;Shopping Cart&quot; item</p>
+</td><td><p>A message should pop up &quot;<strong>You have no items in your shopping cart.</strong>&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
