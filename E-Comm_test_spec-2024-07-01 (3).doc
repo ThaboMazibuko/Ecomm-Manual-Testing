@@ -1,0 +1,721 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec E-Commerce - Women</title>
+<link type="text/css" rel="stylesheet" href="https://testlink.linkfields.io/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="https://testlink.linkfields.io/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Test Specification</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: E-Commerce<br/>Test Suite: E-Commerce - Women</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 01/07/2024</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.Women</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_tc1260">E-Comm-58: verify women-Tops-shopping options -color filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1093">E-Comm-50: verify women-Tops-shopping options -climate filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc840">E-Comm-42: To verify the functionality of  add to compare icon</a></p><p style="padding-left: 45px;"><a href="#toc_tc97">E-Comm-11: Verify Women page-TOPS links</a></p><p style="padding-left: 45px;"><a href="#toc_tc69">E-Comm-8: Verify Women page-Shop By Category filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc41">E-Comm-5: Verify the functionality of &quot;Women&quot; link on a navigation menu</a></p><p style="padding-left: 45px;"><a href="#toc_tc206">E-Comm-13: Verify functionality of  all image links</a></p><p style="padding-left: 45px;"><a href="#toc_tc416">E-Comm-20: To verify the functionality of&quot; add to cart&quot; button</a></p><p style="padding-left: 45px;"><a href="#toc_tc498">E-Comm-23: To verify Women &quot;TOPS&quot; shopping options links</a></p><p style="padding-left: 45px;"><a href="#toc_tc631">E-Comm-31: To verify the functionality of  &quot;add to wishlist&quot; icon</a></p><p style="padding-left: 45px;"><a href="#toc_tc837">E-Comm-41: verify women-Tops-shopping options -category filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc944">E-Comm-46: verify women-Tops-shopping options -style filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc995">E-Comm-48: verify women-Tops-shopping options -size filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1326">E-Comm-59: verify women-Tops-shopping options -ECO COLLECTION filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1342">E-Comm-60: verify women-Tops-shopping options -&quot;ERIN RECOMMENDS&quot; filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1362">E-Comm-62: verify women-Tops-shopping options -MATERIAL filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1554">E-Comm-66: verify women-Tops-shopping options -NEW filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1600">E-Comm-67: verify women-Tops-shopping options -PATTERN filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1645">E-Comm-68: verify women-Tops-shopping options -PERFORMANCE FABRIC filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1687">E-Comm-69: verify women-Tops-shopping options -PRICE filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1748">E-Comm-70: verify women-Tops-shopping options -SALE filters</a></p><p style="padding-left: 45px;"><a href="#toc_tc1777">E-Comm-72: To verify the functionality of the LIST view icon</a></p><p style="padding-left: 45px;"><a href="#toc_tc1887">E-Comm-74: To verify the functionality of the GRID view icon</a></p><p style="padding-left: 45px;"><a href="#toc_tc2021">E-Comm-77: Verify the functionality of a &quot;sorter&quot;</a></p><p style="padding-left: 45px;"><a href="#toc_tc2083">E-Comm-81: To verify the functionality of the&quot; action sorter&quot; button</a></p><p style="padding-left: 45px;"><a href="#toc_tc2125">E-Comm-84: To verify the functionality of  the cart icon</a></p><p style="padding-left: 45px;"><a href="#toc_tc2286">E-Comm-97: verify&quot; country &quot;dropdown on &quot;shopping cart&quot; page</a></p><p style="padding-left: 45px;"><a href="#toc_tc2301">E-Comm-99: verify&quot; province&quot; dropdown on shopping cart page</a></p><p style="padding-left: 45px;"><a href="#toc_tc2416">E-Comm-112: Verify Functionality of&quot; Radio Button&quot; on&quot; summary&quot;&quot; shopping cart&quot; page</a></p><p style="padding-left: 45px;"><a href="#toc_tc2448">E-Comm-115: verify the functionality of update shopping cart button</a></p><p style="padding-left: 45px;"><a href="#toc_tc2465">E-Comm-117: verify the functionality of REMOVE ITEM icon from shopping cart</a></p></div><h1 class="doclevel" >Scope</h1>
+<div class="txtlevel"><p>This is Project for&nbsp;E-Commerce Website</p></div>
+ <br/><a name='toc_1'></a>
+<h1 class='doclevel'>1.Test Suite : Women</h1>
+<div><p>This Test Suite is for the &quot;Women&quot; module</p>
+</div><a name="toc_tc1260"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-58: verify women-Tops-shopping options -color filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;color&quot;</p>
+</td><td><p>All&nbsp; color options should display&nbsp;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>click on any color</p>
+</td><td><p>items of that color should be displayed</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Low</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1093"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-50: verify women-Tops-shopping options -climate filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;climate&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=201">All-Weather&nbsp;8item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=202">Cold&nbsp;4item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=203">Cool&nbsp;17item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=204">Indoor&nbsp;35item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=205">Mild&nbsp;16item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=206">Rainy&nbsp;2item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=207">Spring&nbsp;21item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=208">Warm&nbsp;28item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=209">Windy&nbsp;8item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=210">Wintry&nbsp;6</a></p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=201">All-Weather&nbsp;8</a>&quot; link</p>
+</td><td><p>All -Weather page should be dispayed ,&nbsp;number of items corresponding to number specified for that item</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc840"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-42: To verify the functionality of  add to compare icon&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>The user should have access to&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html">Tops - Women (softwaretestingboard.com)</a></p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User must be logged in and be on the landing page</p>
+</td><td><p>User successfully logged in and product landing page should open&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>select an item to add to wishlist&nbsp;</p>
+</td><td><p>an item should be displayed with product details</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;add to wishlist&quot; icon</p>
+</td><td><p>this message should display &quot;Olivia 1/4 Zip Light Jacket has been added to your Wish List. Click&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women/jackets-women.html">here</a>&nbsp;to continue shopping.&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc97"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-11: Verify Women page-TOPS links&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>&nbsp;This TC is to verify&nbsp;Women page-TOPS links</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should be navigated to the women page</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User should be on the women product landing page</p>
+</td><td><p>women page on product landing page should be displayed</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>Hover to TOPS</p>
+</td><td><p>Four(4) options should be displayed &quot;Hoodies &amp; Sweatshirts&quot; ,&quot;jackets&quot; ,&quot;Tees&quot;, &quot;Bras &amp; Tanks&quot;</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;Hoodies &amp; Sweatshirts &quot;link</p>
+</td><td><p>Hoodies &amp; Sweatshirts page should open showing all women hoodies &amp; sweatshirts with images,price, size(XS,S,M,L,XL) and colours available on that product</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">4</td><td><p>click on &quot;jackets&quot;link</p>
+</td><td><p>jackets page should open showing all women jackets with images ,price,size(XS,S,M,L,XL) and coloours available on the product</p>
+</td></tr><tr><td width="5">5</td><td><p>click on &quot;Tees&quot; link</p>
+</td><td><p>Tees page should open showing all women Tees with images,price,size(XS,SM,L,XL) and colours available on the product</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Low</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc69"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-8: Verify Women page-Shop By Category filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To verify shop by category links</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>user should have access to &quot;&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&quot;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User should use url&nbsp; &nbsp;&quot;&nbsp;<a href="https://magento.softwaretestingboard.com/what-is-new.html">What&#39;s New (softwaretestingboard.com)</a>&quot; to access product landing page</p>
+</td><td><p>women page on product landing page should display</p>
+</td></tr><tr><td width="5">2</td><td><p>navigate to shop by category</p>
+</td><td><p>below there should be two options &quot;Tops&quot; and &quot;Bottoms&quot;</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;Tops&quot;link</p>
+</td><td><p>&nbsp;Tops page should&nbsp; be displayed</p>
+</td></tr><tr><td width="5">4</td><td><p>click on &quot;Bottoms&quot;link</p>
+</td><td><p>Bottoms page should be displayed</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc41"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-5: Verify the functionality of &quot;Women&quot; link on a navigation menu&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>&nbsp;</p>
+
+<p>&nbsp;TC to verify the &quot;Women&quot; link on the navigation menu</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should be in product landing page</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User should use url&nbsp; &nbsp;&quot;&nbsp;<a href="https://magento.softwaretestingboard.com/what-is-new.html">What&#39;s New (softwaretestingboard.com)</a>&quot; to access product landing page</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td><td><p>product landing page should be loaded</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>Hover on the &quot;women&quot; link<br />
+&nbsp;</p>
+</td><td><p>Two options should be displayed &quot;Tops &nbsp;,Bottoms&quot;<br />
+&nbsp;</p>
+</td></tr><tr><td width="5">3</td><td><p>Hover on the &quot;Tops&quot; option</p>
+</td><td><p>The navigation menu is visible and contains the menu items &quot; jackets ,Hoodies &amp; Sweatshirts , Tees ,Bras &amp; Tanks &quot;</p>
+</td></tr><tr><td width="5">4</td><td><p>Hover on the &quot;Bottoms&quot; option</p>
+</td><td><p>The following options should apper &quot;Pants and shorts&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc206"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-13: Verify functionality of  all image links&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User should have access to this URL&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a></p>
+
+<p>product landing &nbsp;&quot;women&quot; page should be displayed</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;New Luma Logo collection&quot;image&nbsp;</p>
+</td><td><p>user should be navigated to the next page with new logo collections</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;You cant have too many tees&quot; image&nbsp;</p>
+</td><td><p>Tees product page should be displayed showing all available Tees images with colours and sizes(XS,S,M,L,XL) and prices</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;Hot pants Hot deals &quot;image&nbsp;</p>
+</td><td><p>Pants product page should be displayed showing all available Pants images with colours and sizes(XS,S,M,L,XL)&nbsp; and prices</p>
+</td></tr><tr><td width="5">4</td><td><p>click on &quot;What would Erin wear&quot; image&nbsp;</p>
+</td><td><p>Erin Recommends page should be displayed showing all products images with colours and sizes(XS,S,M,L,XL) and prices</p>
+</td></tr><tr><td width="5">5</td><td><p>click on &quot;Luma pants&quot;image</p>
+</td><td><p>Pants -Women product page should be displayed showing all availables Pants images with colours and sizes(XS,S,M,L,XL) and prices</p>
+</td></tr><tr><td width="5">6</td><td><p>click on &quot;Luma shorts&quot; link</p>
+</td><td><p>shorts product page should be displayed showing all availables shorts images with colours and sizes(XS,S,M,L,XL) and prices</p>
+</td></tr><tr><td width="5">7</td><td><p>click on &quot;Bras &amp; Tanks&quot; link</p>
+</td><td><p>Bras &amp; Tanks product page should be displayed showing all available Bras &amp; Tanks images with colours and sizes(XS,S,M,L,XL) and prices</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc416"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-20: To verify the functionality of&quot; add to cart&quot; button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Last edit by:</span></td><td colspan="3">Thabo</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>The user should be signed&nbsp;in with valid data</p>
+
+<p>The user has navigated to the product landing product</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>User must be logged in and is on the landing page</p>
+</td><td><p>User logged in successfully and is on landing page</p>
+</td></tr><tr><td width="5">2</td><td><p>Hover over an item image</p>
+</td><td><p>The &quot;Add to Cart&quot; button should be displayed on the item details</p>
+</td></tr><tr><td width="5">3</td><td><p>Select&nbsp; and click a product to cart&nbsp;</p>
+</td><td><p>&nbsp;User will get this message &quot;You need to choose options for your item.&quot;</p>
+</td></tr><tr><td width="5">4</td><td><p>Hover to the size option</p>
+</td><td><p>5 options should display ( XS,S,M,L,XL)</p>
+</td></tr><tr><td width="5">5</td><td><p>Hover to the colour option</p>
+</td><td><p>&nbsp;3 colour options should be displayed</p>
+</td></tr><tr><td width="5">6</td><td><p>click on &quot;Add to Cart&quot; button</p>
+</td><td><p>item should be added to the cart</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc498"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-23: To verify Women &quot;TOPS&quot; shopping options links&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>The user&nbsp;navigated to&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click women-TOPS</p>
+</td><td><p>&nbsp;13 options should display under shopping options &quot;CATEGORY&quot;,&quot;STYLE&quot; ,&quot;SIZE&quot;, &quot;CLIMATE&quot;,&quot;COLOR&quot;,&quot;ECO COLLECTION&quot;,&quot;ERIN RECOMMENDS&quot;,&quot;MATERIAL&quot;,&quot;NEW&quot;,&quot;PATTERN&quot;,&quot;PERFORMANCE FABRIC&quot;,&quot;PRICE&quot;,&quot;SALE&quot;</p>
+</td></tr><tr><td width="5">2</td><td><p>click on&nbsp;CATEGORY text link</p>
+</td><td><p>All 4 options should display as&nbsp;</p>
+
+<ol>
+	<li><a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=23">Jackets&nbsp;12item</a></li>
+	<li><a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=24">Hoodies &amp; Sweatshirts&nbsp;12item</a></li>
+	<li><a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=25">Tees&nbsp;12item</a></li>
+	<li><a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=26">Bras &amp; Tanks&nbsp;14</a></li>
+</ol>
+</td></tr><tr><td width="5">3</td><td><p>click on&nbsp;STYLE text link</p>
+</td><td><p>All optiions should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=116">Insulated&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=117">Jacket&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=119">Lightweight&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=120">Hooded&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=121">Heavy Duty&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=122">Rain Coat&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=123">Hard Shell&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=124">Soft Shell&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=125">Windbreaker&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=127">&frac14; zip&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=128">Full Zip&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=129">Reversible&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=130">Bra&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=132">Sweatshirt&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=134">Tank&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=135">Tee&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=136">Pullover&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=137">Hoodie&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=141">Camisole&nbsp;</a></p>
+</td></tr><tr><td width="5">4</td><td><p>click on&nbsp;SIZE text link</p>
+</td><td><p>All size options should display XS,S,M,L,XL</p>
+</td></tr><tr><td width="5">5</td><td><p>click on&nbsp;CLIMATE text link</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=201">All-Weather&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=202">Cold&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=203">Cool&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=204">Indoor&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=205">Mild&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=206">Rainy&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=207">Spring&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=208">Warm&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=209">Windy&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?climate=210">Wintry&nbsp;</a></p>
+</td></tr><tr><td width="5">6</td><td><p>click on&nbsp;COLOR text link</p>
+</td><td><p>All color options should be displayed</p>
+</td></tr><tr><td width="5">7</td><td><p>click on&nbsp;ECO COLLECTION text link</p>
+</td><td><p>All options should be displayed as</p>
+
+<p>yes,No</p>
+</td></tr><tr><td width="5">8</td><td><p>click on&nbsp;ERIN RECOMMENDS text link</p>
+</td><td><p>All options should&nbsp; be displayed&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?erin_recommends=1">Yes&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?erin_recommends=0">No&nbsp;</a></p>
+</td></tr><tr><td width="5">9</td><td><p>click on&nbsp;MATERIAL text link</p>
+</td><td><p>All options should be displayed as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=142">Cocona&reg; performance fabric&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=33">Cotton&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=144">Fleece&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=145">Hemp&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=146">Jersey&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=147">LumaTech&trade;&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=36">Mesh&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=148">Lycra&reg;&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=37">Nylon&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=149">Microfiber&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=38">Polyester&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=150">Spandex&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=151">HeatTec&reg;&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=152">EverCool&trade;&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=153">Organic Cotton&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=154">TENCEL&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=155">CoolTech&trade;&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=158">Wool&nbsp;</a></p>
+</td></tr><tr><td width="5">10</td><td><p>click on&nbsp;NEW text link</p>
+</td><td><p>All options should be displayed as : Yes,No</p>
+</td></tr><tr><td width="5">11</td><td><p>click on&nbsp;PATTERN text link</p>
+</td><td><p>All options should be displayed as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=193">Checked&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=194">Color-Blocked&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=196">Solid&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=198">Striped&nbsp;</a></p>
+</td></tr><tr><td width="5">12</td><td><p>click on&nbsp;PERFORMANCE FABRIC text link</p>
+</td><td><p>All options should be displayed as : Yes,No</p>
+</td></tr><tr><td width="5">13</td><td><p>click on&nbsp;PRICE text link</p>
+</td><td><p>All options should be displayed as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=20-30">$20.00&nbsp;-&nbsp;$29.99&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=30-40">$30.00&nbsp;-&nbsp;$39.99&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=40-50">$40.00&nbsp;-&nbsp;$49.99&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=50-60">$50.00&nbsp;-&nbsp;$59.99&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=60-70">$60.00&nbsp;-&nbsp;$69.99&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=70-80">$70.00&nbsp;-&nbsp;$79.99&nbsp;</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=80-">$80.00&nbsp;and above&nbsp;</a></p>
+</td></tr><tr><td width="5">14</td><td><p>click on&nbsp;SALE text link</p>
+</td><td><p>All options should be displayed as : Yes, No</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc631"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-31: To verify the functionality of  &quot;add to wishlist&quot; icon&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>The user should have access to&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html">Tops - Women (softwaretestingboard.com)</a></p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>sign&nbsp;in</p>
+</td><td><p>User successfully logged in and product landing page should open&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>select an item to&quot; add to wishlist&quot;</p>
+</td><td><p>&quot;wish list&quot; page should open</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;add to wishlist&quot; icon</p>
+</td><td><p>this message should display &quot;Overnight Duffle has been added to your Wish List. Click here to continue shopping.&quot;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc837"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-41: verify women-Tops-shopping options -category filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;category&quot;</p>
+</td><td><p>All options should display&nbsp; as</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=23">Jackets&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=24">Hoodies &amp; Sweatshirts&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=25">Tees&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=26">Bras &amp; Tanks&nbsp;14</a></p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?cat=23">Jackets&nbsp;12</a>&quot;</p>
+</td><td><p>Jackets items&nbsp; should display, number of jackets should match the given number</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc944"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-46: verify women-Tops-shopping options -style filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully logged in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>3.The user has navigated&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html">Tops - Women (softwaretestingboard.com)</a></p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Hover to style filter under shopping options</p>
+</td><td><p>User should see the filter options</p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;style&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=116">Insulated&nbsp;4item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=117">Jacket&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=119">Lightweight&nbsp;6item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=120">Hooded&nbsp;5item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=121">Heavy Duty&nbsp;1item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=122">Rain Coat&nbsp;2item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=123">Hard Shell&nbsp;3item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=124">Soft Shell&nbsp;8item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=125">Windbreaker&nbsp;4item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=127">&frac14; zip&nbsp;5item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=128">Full Zip&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=129">Reversible&nbsp;2item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=130">Bra&nbsp;5item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=132">Sweatshirt&nbsp;5item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=134">Tank&nbsp;9item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=135">Tee&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=136">Pullover&nbsp;10item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=137">Hoodie&nbsp;9item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=141">Camisole&nbsp;1</a></p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?style_general=116">Insulated&nbsp;4</a>&quot; link</p>
+</td><td><p>Style Insulated&nbsp; page should be dispayed showing all item,number of items corresponding to the number given</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc995"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-48: verify women-Tops-shopping options -size filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed&nbsp;in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;size&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p>XS, S, M, L, XL</p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;XS&quot; link</p>
+</td><td><p>&nbsp;All pages with items of XS should be displayed</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1326"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-59: verify women-Tops-shopping options -ECO COLLECTION filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed&nbsp;in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;ECO COLLECTION&quot;</p>
+</td><td><p>All options should display as</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?eco_collection=1">Yes&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?eco_collection=0">No&nbsp;38</a></p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>click on&quot; yes&quot;</p>
+</td><td><p>all items on Yes -eco collection should dispay</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;no&quot;</p>
+</td><td><p>all items on No-eco collection should display</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1342"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-60: verify women-Tops-shopping options -&quot;ERIN RECOMMENDS&quot; filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully logged in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>3.The user has navigated&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html">Tops - Women (softwaretestingboard.com)</a></p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Hover to erin recommends&nbsp;filter under shopping options</p>
+</td><td><p>User should see the filter options</p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;erin recommends&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?erin_recommends=1">Yes&nbsp;11item</a>&nbsp;,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?erin_recommends=0">No&nbsp;39</a></p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;Yes&quot; link</p>
+</td><td><p>All items on erin recommends should display</p>
+</td></tr><tr><td width="5">4</td><td><p>click on &quot;No&quot;link</p>
+</td><td><p>All item on No-erin recommends should display</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1362"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-62: verify women-Tops-shopping options -MATERIAL filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully logged in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>3.The user has navigated&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html">Tops - Women (softwaretestingboard.com)</a></p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Hover to material&nbsp;filter under shopping options</p>
+</td><td><p>User should see the filter options</p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;MATERIAL&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=142">Cocona&reg; performance fabric&nbsp;9item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=33">Cotton&nbsp;16item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=144">Fleece&nbsp;6item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=145">Hemp&nbsp;2item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=146">Jersey&nbsp;1item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=147">LumaTech&trade;&nbsp;1item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=36">Mesh&nbsp;2item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=148">Lycra&reg;&nbsp;6item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=37">Nylon&nbsp;10item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=149">Microfiber&nbsp;1item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=38">Polyester&nbsp;22item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=150">Spandex&nbsp;13item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=151">HeatTec&reg;&nbsp;3item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=152">EverCool&trade;&nbsp;5item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=153">Organic Cotton&nbsp;9item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=154">TENCEL&nbsp;1item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=155">CoolTech&trade;&nbsp;6item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=158">Wool&nbsp;4</a></p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=145">Hemp&nbsp;2</a>&quot; link</p>
+</td><td><p>Hemp &nbsp;page should be dispayed , number of item&nbsp;corresponding to number specified for that item</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1554"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-66: verify women-Tops-shopping options -NEW filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;NEW&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?new=1">Yes&nbsp;13item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?new=0">No&nbsp;37</a></p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;YES&quot; link</p>
+</td><td><p>all new product page should be dispayed , number of item&nbsp;corresponding to number specified for that item</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=37">N</a>O&quot;link</p>
+</td><td><p>old product&nbsp;page should be displayed ,number of items&nbsp;corresponding to number specified for that item</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1600"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-67: verify women-Tops-shopping options -PATTERN filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;PATTERN&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=193">Checked&nbsp;1item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=194">Color-Blocked&nbsp;2item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=196">Solid&nbsp;46item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=198">Striped&nbsp;1</a></p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=196">Solid&nbsp;46</a>&quot; link</p>
+</td><td><p>solid product page should be dispayed , number of item&nbsp;corresponding to number specified for that item</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?pattern=198">Striped&nbsp;1</a>&quot;link</p>
+</td><td><p>Striped product page should be displayed ,number of items&nbsp;corresponding to number specified for that item</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1645"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-68: verify women-Tops-shopping options -PERFORMANCE FABRIC filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;PERFORMANCE FABRIC&quot;</p>
+</td><td><p>All options should display as</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?eco_collection=1">Yes&nbsp;15item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?eco_collection=0">No&nbsp;3</a>5</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td width="5">2</td><td><p>click on&quot; yes&quot;</p>
+</td><td><p>all items on Yes&nbsp; performance fabric itemsshould dispay</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;no&quot;</p>
+</td><td><p>all items on No-performance fabric collection should display</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1687"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-69: verify women-Tops-shopping options -PRICE filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed&nbsp;in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;price&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=20-30">$20.00&nbsp;-&nbsp;$29.99&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=30-40">$30.00&nbsp;-&nbsp;$39.99&nbsp;15item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=40-50">$40.00&nbsp;-&nbsp;$49.99&nbsp;4item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=50-60">$50.00&nbsp;-&nbsp;$59.99&nbsp;10item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=60-70">$60.00&nbsp;-&nbsp;$69.99&nbsp;5item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=70-80">$70.00&nbsp;-&nbsp;$79.99&nbsp;3item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=80-">$80.00&nbsp;and above&nbsp;1</a></p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?price=20-30">$20.00&nbsp;-&nbsp;$29.99&nbsp;12</a>&quot; link</p>
+</td><td><p>All items on that price range should be dispalyed ,number of items corresponding to the number given</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1748"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-70: verify women-Tops-shopping options -SALE filters&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>1.The user has successfully signed&nbsp;in and navigated to the&nbsp;<a href="https://magento.softwaretestingboard.com/women.html">Women (softwaretestingboard.com)</a>&nbsp;product landing page</p>
+
+<p>2.The user has navigated to the &quot;Women-Tops&quot; section on the product landing page</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;SALE&quot;</p>
+</td><td><p>All options should display as&nbsp;</p>
+
+<p><a href="https://magento.softwaretestingboard.com/women/tops-women.html?new=1">Yes&nbsp;12item</a>,<a href="https://magento.softwaretestingboard.com/women/tops-women.html?new=0">No&nbsp;3</a>8</p>
+</td></tr><tr><td width="5">2</td><td><p>click on &quot;YES&quot; link</p>
+</td><td><p>all item on sale&nbsp;product page should be dispayed , number of item&nbsp;corresponding to number specified for that item</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?material=37">N</a>O&quot;link</p>
+</td><td><p>all items that are not on sale product&nbsp;page should be displayed ,number of items&nbsp;corresponding to number specified for that item</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1777"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-72: To verify the functionality of the LIST view icon&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>&nbsp;</p>
+
+<p>This TC is to verify the functionality of the LIST view iconon the Tops-Women product page</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>The user has navigated to&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?product_list_mode=list">Tops - Women (softwaretestingboard.com)</a></p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Navigate to the Tops-Women product page&nbsp;where the&quot; list view&quot; icon&nbsp;is located</p>
+</td><td><p>The&quot; list view&quot; icon&nbsp;is &nbsp;displayed and labeled correctly</p>
+</td></tr><tr><td width="5">2</td><td><p>Click on the &quot;list view&quot; icon</p>
+</td><td><p>The list view displays the correct number of items</p>
+</td></tr><tr><td width="5">3</td><td><p>Check that the items displayed in the list view are accurate</p>
+</td><td><p>The list view updates dynamically with changes (in a list form)</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc1887"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-74: To verify the functionality of the GRID view icon&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>&nbsp;</p>
+
+<p>This TC is to verify the functionality of the GRID&nbsp;view icon on the Tops-Women product page</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>The user has navigated to&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?product_list_mode=list">Tops - Women (softwaretestingboard.com)</a></p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Navigate to the Tops-Women product page&nbsp;where the grid&nbsp;view button is located</p>
+</td><td><p>The grid view button is &nbsp;displayed and labeled correctly</p>
+</td></tr><tr><td width="5">2</td><td><p>Click on the&quot; grid&nbsp;view&quot;icon</p>
+</td><td><p>The grid&nbsp;view displays the correct number of items</p>
+</td></tr><tr><td width="5">3</td><td><p>Check that the items displayed in the grid&nbsp;view are accurate</p>
+</td><td><p>The list view updates dynamically with changes (in a grid&nbsp;form)</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2021"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-77: Verify the functionality of a &quot;sorter&quot;&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To ensure that the &quot;sorter&quot;&nbsp;correctly narrows down the displayed items based on selected criteria</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>The user has sucessfully signed&nbsp;in</p>
+
+<p>User has navigated to&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?product_list_dir=desc">Tops - Women (softwaretestingboard.com)</a></p>
+
+<p>user can see the &quot;sort by&quot;&nbsp;on that page</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on the &quot;sort by&quot;drop down</p>
+</td><td><p>The&quot; sort by&quot;&nbsp;options are displayed clearly&nbsp; &quot;Position , Product name ,Price&quot;</p>
+</td></tr><tr><td width="5">2</td><td><p>click&quot; sort by&quot;&nbsp;option &quot;position&quot;</p>
+</td><td><p>The displayed items match the selected filter criteria by position</p>
+</td></tr><tr><td width="5">3</td><td><p>click &quot;sort by&quot;&nbsp;option &quot; product name&quot;</p>
+</td><td><p>The&nbsp;displayed items match the selected filter criteria by product name</p>
+</td></tr><tr><td width="5">4</td><td><p>click &quot;sort by&quot;&nbsp;option &quot;price&quot;</p>
+</td><td><p>The displayed items match the selected filter criteria by price</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2083"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-81: To verify the functionality of the&quot; action sorter&quot; button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>user successfully registered and signed&nbsp;&nbsp;in&nbsp;</p>
+
+<p>user has navigated to&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?product_list_order=price&amp;product_list_dir=desc#">Tops - Women (softwaretestingboard.com)</a></p>
+
+<p>user can see the action sorter button</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>Hover to the action sorter button</p>
+</td><td><p>this message should display&quot;set Ascending direction&quot; ,&quot;set descending direction&quot;</p>
+</td></tr><tr><td width="5">2</td><td><p>click on the button</p>
+</td><td><p>the items should be sorted in that order either ascending direction or descending order</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2125"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-84: To verify the functionality of  the cart icon&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>this TC is to verify the functionality of the cart icon if correct products are being added to the cart and items can also be removed from the cart</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>user should be registered successfully&nbsp;</p>
+
+<p>the user has access to LUMA application</p>
+
+<p>user has navigated to&nbsp;<a href="https://magento.softwaretestingboard.com/women/tops-women.html?product_list_order=price">&nbsp;(softwaretestingboard.com)</a>&nbsp;product landing page</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>add an item to the cart</p>
+</td><td><p>item should be added to cart, and number of item in cart increase</p>
+</td></tr><tr><td width="5">2</td><td><p>Click on the cart icon</p>
+</td><td><p>The added item is displayed with accurate details on the cart page. The&quot; proccedd to checkout&quot; button and &quot;view and edit cart&quot; link &nbsp;should also be displayed</p>
+</td></tr><tr><td width="5">3</td><td><p>click on &quot;view and edit cart&quot;</p>
+</td><td><p>shopping cart page should open with details of the item&nbsp; ,size,price, Qty</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2286"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-97: verify&quot; country &quot;dropdown on &quot;shopping cart&quot; page&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>This TC is to verify the&quot; country&quot; dropdown on the shopping cart page</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>user should be registered and logged in</p>
+
+<p>user navigated to&nbsp;<a href="https://magento.softwaretestingboard.com/checkout/cart/">Shopping Cart (softwaretestingboard.com)</a>&nbsp;shopping cart page</p>
+
+<p>user able to see summary of the order</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on the&quot; country&quot; dropdown</p>
+</td><td><p>user should be able to see list of different countries&nbsp;</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2301"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-99: verify&quot; province&quot; dropdown on shopping cart page&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>user already registered and signed&nbsp;in on LUMA application</p>
+
+<p>user has navigated to&nbsp;<a href="https://magento.softwaretestingboard.com/checkout/cart/">Shopping Cart (softwaretestingboard.com)</a></p>
+
+<p>user able to see&quot; summary&quot; of the items in cart</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>&nbsp;click on the &quot;state/ province&quot;&nbsp;dropdown</p>
+</td><td><p>user should be able to see all possible options(list of provinces)</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2416"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-112: Verify Functionality of&quot; Radio Button&quot; on&quot; summary&quot;&quot; shopping cart&quot; page&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>To ensure that the radio button accurately captures user input and behaves as expected</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>user has been registered and successfully signed&nbsp;in</p>
+
+<p>user has navingated to shopping cart page&nbsp;<a href="https://magento.softwaretestingboard.com/checkout/cart/">Shopping Cart (softwaretestingboard.com)</a></p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on the radio button</p>
+</td><td><p>the item must mark&nbsp;as selected and the shipping rate must add on the total</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">Medium</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2448"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-115: verify the functionality of update shopping cart button&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Summary:</span><br /><p>&nbsp;</p>
+
+<p>This TC is to verify the functionality of&quot; update shopping cart &quot;button on shopping cart page</p>
+</td></tr><tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>User successfully registered and signed&nbsp;in on LUMA application</p>
+
+<p>User navigated to shopping cart page&nbsp;<a href="https://magento.softwaretestingboard.com/checkout/cart/">Shopping Cart (softwaretestingboard.com)</a></p>
+
+<p>user able to see &quot; update shopping cart<strong>&quot;&nbsp;</strong>button</p>
+
+<p>user able to see the selected item</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">1</td><td><p>click on &quot;update shopping cart&quot; button</p>
+</td><td><p>the shopping cart should be updated saving changes done on an item</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc2465"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Test Case E-Comm-117: verify the functionality of REMOVE ITEM icon from shopping cart&nbsp;<span style="font-size: 80%;">[Version  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="3">Mutshidzi</td></tr>
+<tr><td colspan="4"><span class="label">Preconditions:</span><br /><p>user should have access to&nbsp;<a href="https://magento.softwaretestingboard.com/checkout/cart/">Shopping Cart (softwaretestingboard.com)</a></p>
+
+<p>the shopping cart should be open</p>
+
+<p>&nbsp;</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Step actions:</span></td><td><span class="label">Expected Results:</span></td></tr><tr><td width="5">2</td><td><p>click on&quot; view and edit cart&quot; link</p>
+</td><td><p>the shopping cart page should display</p>
+</td></tr><tr><td width="5">3</td><td><p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2465&amp;tcversion_id=2466&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2465%26show_mode%3Dshow&amp;step_id=2498">Click&nbsp;on the &quot;Remove Item&quot;&nbsp;</a>icon</p>
+</td><td><p><a href="https://testlink.linkfields.io/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=2465&amp;tcversion_id=2466&amp;goback_url=https%3A%2F%2Ftestlink.linkfields.io%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D2465%26show_mode%3Dshow&amp;step_id=2498">the item should be removed from the shopping cart ,number of items on cart should decrease</a></p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="3">High</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="3">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span></td><td colspan="3">&nbsp;None<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
